@@ -1,4 +1,4 @@
-# -tfe-alternative-worker-init
+# tfe-alternative-worker-init
 
 Initialization script call 
 

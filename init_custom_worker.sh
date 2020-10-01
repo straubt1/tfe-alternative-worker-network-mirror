@@ -1,6 +1,6 @@
 #!/bin/bash
 
-date > /tmp/tomwashere
+date > /tmp/tomwashere # write something dynamic to prove we were here
 
 cat >> /tmp/cli.tfrc << EOF
 
@@ -11,4 +11,4 @@ provider_installation {
 }
 EOF
 
-sleep 60
+sleep 60 # only here to allow time to docker exec into the ephemeral run container
