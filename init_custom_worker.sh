@@ -3,7 +3,7 @@
 # TERRAFORM_CONFIG is where the run stores its CLI configuration
 # While this could change, it is usually "/tmp/cli.tfrc"
 # NOTE: update the URL to point to your network mirror
-cat >> ${TERRAFORM_CONFIG} << EOF
+cat >> "/tmp/cli.tfrc" << EOF
 
 provider_installation {
   network_mirror {
